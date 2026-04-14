@@ -1,16 +1,35 @@
-# msar_flutter
+Overview
 
-A new Flutter project.
+Mihwar (msar_flutter) is a Flutter-based demo application designed to simulate municipal solid waste management operations. It provides a role-based experience for different users involved in waste collection workflows, including drivers, supervisors, and governorate managers. The app is localized (Arabic/English) and built as a functional prototype with demo data to showcase real-world operational scenarios.
 
-## Getting Started
+Key Features
+Driver Experience
+Follow optimized collection routes on a map
+Support for different workflows (e.g. smart vs training modes)
+Interaction with bins, visits, and trip logic
+Integration with routing concepts (e.g. OSRM-style services)
+Supervisor Dashboard
+Monitor operations and field activities
+Track compliance and workflow execution
+Gain visibility into ongoing tasks
+Governorate Management
+View operational dashboards and key metrics
+Monitor system performance and efficiency
+Utilize predictive bin data for planning and optimization
+Data & Simulation
+Uses local/demo data (JSON assets)
+Includes predictive logic for bin status
+Designed as a realistic prototype, not a minimal template
+Tech Stack
+Flutter
+Riverpod (state management)
+go_router (navigation)
+SQLite (local persistence)
+Dio (networking)
+flutter_map (maps)
+Localization
+Arabic
+English
+Summary
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Mihwar is a role-based, localized Flutter prototype that simulates waste management operations. It demonstrates how different stakeholders interact within a unified system, combining mapping, routing logic, predictive data, and dashboards into a single application
